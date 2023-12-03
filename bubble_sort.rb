@@ -1,6 +1,5 @@
 def bubble_sort(arr)
     i = arr.length - 1
-
     while i > 0 do
         arr.each_index do |ind|
             left = arr[ind]
